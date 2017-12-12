@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The VoiceCast</title>
-    <link>https://thevoicecast.com/</link>
+    <link>http://thevoicecast.com/</link>
     <description>Recent content on The VoiceCast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://thevoicecast.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://thevoicecast.com/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

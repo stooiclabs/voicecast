@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thevoicecast.com/categories/</loc>
+    <loc>http://thevoicecast.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thevoicecast.com/tags/</loc>
+    <loc>http://thevoicecast.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thevoicecast.com/</loc>
+    <loc>http://thevoicecast.com/</loc>
     <priority>0</priority>
   </url>
   

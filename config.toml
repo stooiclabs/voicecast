@@ -1,4 +1,4 @@
-baseurl = "https://thevoicecast.com/"
+baseurl = "http://thevoicecast.com/"
 languageCode = "en-us"
 title = "The VoiceCast"
 theme = "hugo-creative-theme"
