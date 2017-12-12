@@ -1,0 +1,100 @@
+baseurl = "https://thevoicecast.com/"
+languageCode = "en-us"
+title = "The VoiceCast"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+publishDir = "docs"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "The VoiceCast"
+	description = "Make great stories"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "VoiceCast"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Podcasters"
+			portfolio = "Advertisers"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "The Future of Podcasting"
+		subtitle   = "Stories you’ll love. Follow, share and connect with podcasters around the world."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "An Enriched Experience"
+		description = "VoiceCast works with podcasters to bring your favorite shows to life with additional, dynamic content that’s always entertaining."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Podcasters"
+            description = "Host, distribute and monetize your audio"
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Advertisers"
+			description = "Reach dedicated listeners and deliver your brand message through dynamic advert insertions and endorsements from the top talent in podcasting."
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Discover"
+            description = "We work with thousands of the best podcasters and audio producers."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Made with Love"
+            description = "Made with love in Norway"
+
+
+    # Portfolio modals
+	#[params.portfolio.modal]
+    #    client = "Client"
+    #    date = "Date"
+    #    category = "Category"
+    #    buttonText = "Close"
+
+    
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to join our podcast network? Contact us"
+		email = "hello@thevoicecast.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
