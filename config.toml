@@ -91,7 +91,7 @@ publishDir = "docs"
 	[params.contact]
 		headline = "Let's Get In Touch!"
 		description = "Ready to join our podcast network? Contact us"
-		email = "hello@thevoicecast.com"
+		email = "hello@stooic.com"
 
 	# Google Maps section
 	# [params.location]
